@@ -1,0 +1,21 @@
+{
+  "name": "login_functionality",
+  "version": "1.0.0",
+  "description": "Login Application functionality",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js features/ -f json:report/cucumber_report.json & node index.js"
+  },
+  "author": "Muthupriya Palaniappan",
+  "license": "ISC",
+  "dependencies": {
+    "assert": "^2.0.0",
+    "chromedriver": "^94.0.0",
+    "cucumber": "^6.0.5",
+    "cucumber-assert": "^2.0.1",
+    "selenium-webdriver": "^4.0.0-rc-1"
+  },
+  "devDependencies": {
+    "cucumber-html-reporter": "^5.5.0"
+  }
+}

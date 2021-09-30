@@ -1,0 +1,415 @@
+[
+  {
+    "description": "  As a QA user\n  I want to be able to sign in to qa experience portal",
+    "keyword": "Feature",
+    "name": "Login sign in",
+    "line": 1,
+    "id": "login-sign-in",
+    "tags": [],
+    "uri": "features/login-page.feature",
+    "elements": [
+      {
+        "id": "login-sign-in;a-user-signing-in-with-valid-email-and-valid-password-should-sign-in-successfully-and-the-user-identity-should-be-visible-on-the-page",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "A user signing in with valid email and valid password should sign in successfully and the user identity should be visible on the page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the website visitor land on the QA experience page",
+            "match": {
+              "location": "features/step-definitions/login-page-steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 271000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "the website visitor should able to see the login page successfully",
+            "match": {
+              "location": "features/step-definitions/login-page-steps.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "the website visitor enters the emailaddress \"test@qa-experience.com\"",
+            "match": {
+              "location": "features/step-definitions/login-page-steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 190000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the website visitor enters the password \"Password1\"",
+            "match": {
+              "location": "features/step-definitions/login-page-steps.js:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 73000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "the website visitor clicks on the login button",
+            "match": {
+              "location": "features/step-definitions/login-page-steps.js:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 62000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "website visitor should navigate to the logged-in page successfully",
+            "match": {
+              "location": "features/step-definitions/login-page-steps.js:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 70000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-sign-in;a-user-signing-in-with-invalid-email-and-valid-password-able-to-see-an-inline-error-message",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "A user signing in with invalid email and valid password able to see an inline error message",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 19,
+            "name": "the website visitor land on the QA experience page",
+            "match": {
+              "location": "features/step-definitions/login-page-steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 123000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "the website visitor should able to see the login page successfully",
+            "match": {
+              "location": "features/step-definitions/login-page-steps.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "the website visitor enters the emailaddress \"priyatest\"",
+            "match": {
+              "location": "features/step-definitions/login-page-steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 96000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "the website visitor enters the password \"Password1\"",
+            "match": {
+              "location": "features/step-definitions/login-page-steps.js:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 84000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "the website visitor should able to see an email field \"Error message\"",
+            "match": {
+              "location": "features/step-definitions/login-page-steps.js:56"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 24000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-sign-in;a-user-signing-in-with-valid-email-and-invalid-password-able-to-see-an-inline-error-message",
+        "keyword": "Scenario",
+        "line": 38,
+        "name": "A user signing in with valid email and invalid password able to see an inline error message",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 30,
+            "name": "the website visitor land on the QA experience page",
+            "match": {
+              "location": "features/step-definitions/login-page-steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 123000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "the website visitor should able to see the login page successfully",
+            "match": {
+              "location": "features/step-definitions/login-page-steps.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "the website visitor enters the emailaddress \"test@qa-experience.com\"",
+            "match": {
+              "location": "features/step-definitions/login-page-steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 92000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 33,
+            "name": "the website visitor enters the password \"123\"",
+            "match": {
+              "location": "features/step-definitions/login-page-steps.js:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 65000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 34,
+            "name": "the website visitor should able to see an password field \"Error message\"",
+            "match": {
+              "location": "features/step-definitions/login-page-steps.js:61"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-sign-in;a-user-signing-in-enters-invalid-email-and-invalid-password-able-to-see-an-inline-error-messages",
+        "keyword": "Scenario",
+        "line": 50,
+        "name": "A user signing in enters invalid email and invalid password able to see an inline error messages",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 41,
+            "name": "the website visitor land on the QA experience page",
+            "match": {
+              "location": "features/step-definitions/login-page-steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 104000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 42,
+            "name": "the website visitor should able to see the login page successfully",
+            "match": {
+              "location": "features/step-definitions/login-page-steps.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 43,
+            "name": "the website visitor enters invalid emailaddress \".\"",
+            "match": {
+              "location": "features/step-definitions/login-page-steps.js:66"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 80000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 44,
+            "name": "the website visitor should able to see an email field \"Error message\"",
+            "match": {
+              "location": "features/step-definitions/login-page-steps.js:56"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 45,
+            "name": "the website visitor enters invalid password \"123\"",
+            "match": {
+              "location": "features/step-definitions/login-page-steps.js:74"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 63000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 46,
+            "name": "the website visitor should able to see an password field \"Error message\"",
+            "match": {
+              "location": "features/step-definitions/login-page-steps.js:61"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-sign-in;a-user-signing-in-with-valid-email-and-valid-password-unable-to-find-the-elements",
+        "keyword": "Scenario",
+        "line": 62,
+        "name": "A user signing in with valid email and valid password unable to find the elements",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 54,
+            "name": "the website visitor should able to see the login page successfully",
+            "match": {
+              "location": "features/step-definitions/login-page-steps.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 55,
+            "name": "the website visitor enters the emailaddress \"test@qa-experience.com\"",
+            "match": {
+              "location": "features/step-definitions/login-page-steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 111000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 56,
+            "name": "the website visitor enters the password \"Password1\"",
+            "match": {
+              "location": "features/step-definitions/login-page-steps.js:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 56000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 57,
+            "name": "the website visitor clicks on the login button",
+            "match": {
+              "location": "features/step-definitions/login-page-steps.js:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 56000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 58,
+            "name": "website visitor should navigate to the logged-in page",
+            "match": {
+              "location": "features/step-definitions/login-page-steps.js:86"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 11000000,
+              "error_message": "NoSuchElementError: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//test\"}\n  (Session info: chrome=94.0.4606.61)\n    at Object.throwDecodedError (/Users/muthupriya.palaniappan/Documents/login_functionality/node_modules/selenium-webdriver/lib/error.js:517:15)\n    at parseHttpResponse (/Users/muthupriya.palaniappan/Documents/login_functionality/node_modules/selenium-webdriver/lib/http.js:643:13)\n    at Executor.execute (/Users/muthupriya.palaniappan/Documents/login_functionality/node_modules/selenium-webdriver/lib/http.js:569:28)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at async thenableWebDriverProxy.execute (/Users/muthupriya.palaniappan/Documents/login_functionality/node_modules/selenium-webdriver/lib/webdriver.js:731:17)\n    at async toWireValue (/Users/muthupriya.palaniappan/Documents/login_functionality/node_modules/selenium-webdriver/lib/webdriver.js:139:15)\n    at async /Users/muthupriya.palaniappan/Documents/login_functionality/node_modules/selenium-webdriver/lib/webdriver.js:189:16\n    at async forEachKey (/Users/muthupriya.palaniappan/Documents/login_functionality/node_modules/selenium-webdriver/lib/webdriver.js:183:9)\n    at async convertKeys (/Users/muthupriya.palaniappan/Documents/login_functionality/node_modules/selenium-webdriver/lib/webdriver.js:188:3)\n    at async thenableWebDriverProxy.execute (/Users/muthupriya.palaniappan/Documents/login_functionality/node_modules/selenium-webdriver/lib/webdriver.js:729:22)\n    at async World.<anonymous> (/Users/muthupriya.palaniappan/Documents/login_functionality/features/step-definitions/login-page-steps.js:87:31)"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
