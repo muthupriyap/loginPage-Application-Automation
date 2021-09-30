@@ -1,30 +1,25 @@
-Project Name:  
+**Project Name**  
 
     This is login Application functionality project using cucumber.js
 
 Page Name: `https://login.dev.qa-experience.com/login`
 
-Prerequesites:
+**Prerequesites**
 
-Node.js
+1. [Node.js](https://nodejs.org/en/)
+2. [NPM](https://www.npmjs.com/)
+3. [cucumber-js](https://www.npmjs.com/package/cucumber)
 
-NPM
+**Major Packages**
+```gherkin
+1. cucumber - Cucumber.js is the JavaScript implementation of Cucumber and runs on the maintained Node.js versions.
+2. Selenium webdriver - Webdriver for JavaScript
+3. chromedriver - To interacts with chrome browser
+4. cucumber-html-reporter - Generate Cucumber HTML report using bootstrap
+5.cucumber-assert - It allows assertions in cucumber.js without extra-long stacktraces when an assertion fails
+```
 
-cucumber-js
-
-Major Packages:
-
-cucumber - Cucumber.js is the JavaScript implementation of Cucumber and runs on the maintained Node.js versions.
-
-Selenium webdriver - Webdriver for JavaScript
-
-chromedriver - To interacts with chrome browser
-
-cucumber-html-reporter - Generate Cucumber HTML report using bootstrap
-
-cucumber-assert - It allows assertions in cucumber.js without extra-long stacktraces when an assertion fails
-
-Directory Structure
+**Directory Structure**
 
 Login_Functionality
 
@@ -59,14 +54,16 @@ Login_Functionality
     └── Report
             
 
-Install and Run
+**Install and Run**
 
-1. Install all the packages using `npm install @dependency names`
+```js
+
+1. Install all the packages using `npm i`
 
 2. Run the tests using the command `npm test`
+```
 
-
-Report
+**Report**
 
 /report/cucumber_report.html
 
