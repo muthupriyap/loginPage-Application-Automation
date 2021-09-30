@@ -27,21 +27,35 @@ cucumber-assert - It allows assertions in cucumber.js without extra-long stacktr
 Directory Structure
 
 Login_Functionality
-.
+
 ├── README.md
 
+
 └── e2e
+
+    |
     ├── config.js
+    
     |── cucumber.js
+    
     │── index.js
+    
     |── package.json
+    
     ├── features
+    
     │   └── login_page.feature
+    
     |   └── common
+    
     |       ├── browser.js
+    
     |       ├── selector.js
+    
     |   └── step_definitions
+    
     |       ├── login_page.js
+    
     └── Report
             
 
