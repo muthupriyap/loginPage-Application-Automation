@@ -16,6 +16,7 @@
 
 - [x] Don't raise the pull request directly from `feature` to `main/master` unless it's a breaking change or documentation.
 - [x] Add Assignees assign yourself / team member
-- [x] Add Browserstack & Ready for Merge Labels
+- [x] Add Browserstack Label
+- [x] Add READY_FOR_MERGE Label
 
 ## Screenshots (if appropriate):
