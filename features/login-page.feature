@@ -8,7 +8,7 @@ Scenario Outline: A user signing in with valid email and valid password should s
     Then the website visitor enters the emailaddress "<email>"
     Then the website visitor enters the password "<password>"
     When the website visitor clicks on the login button
-    Then website visitor should navigate to the logged-in page successfully
+    Then website visitor should navigate to the logged in page successfully
 
 Examples:
 |email                 |password |
